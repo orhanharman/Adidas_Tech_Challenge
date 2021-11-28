@@ -54,7 +54,6 @@ public class TechChallengeTask {
         //2- Navigate to "Laptop" → "Sony vaio i5" and click on "Add to cart". Accept pop up confirmation.
 
         driver.findElement(By.xpath("//*[@onclick=\"byCat('notebook')\"]")).click();
-
         driver.findElement(By.xpath("//a[.='Sony vaio i5']")).click();
 
         WebElement addToCart = driver.findElement(By.xpath("//a[.='Add to cart']"));
